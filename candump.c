@@ -8,7 +8,7 @@
 #include <linux/can.h>
 #include <linux/can/raw.h>
 
-#define CAN_INTERFACE "can0" // Nome da interface vcan
+#define CAN_INTERFACE "vcan0" // Nome da interface vcan
 
 int main(void) {
     struct sockaddr_can addr;
